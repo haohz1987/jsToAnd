@@ -44,9 +44,9 @@ public class MainActivity extends AppCompatActivity {
                         intent.putExtra("bindstatus",status);
                         startActivity(intent);
                         finish();
-                        super.onLoadResource(view, url);
                     }
                 }
+                super.onLoadResource(view, url);
             }
         });
     }
